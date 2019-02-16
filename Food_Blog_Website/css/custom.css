@@ -1,0 +1,171 @@
+/*
+* Skeleton V2.0.4
+* Copyright 2014, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 12/29/2014
+*/
+
+
+/* Table of contents
+––––––––––––––––––––––––––––––––––––––––––––––––––
+- Fonts
+*/
+
+body,h1,h2,h3,h4,h5,h6 {font-family: "Karma", sans-serif}
+
+
+/* Container
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.container{
+	width: 100%;
+	max-width: 1440px;
+}
+
+
+/* Navbar
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.navbar_link{
+	/*display: inline-block;*/
+	padding: 10px 15px;
+	text-decoration: none;
+	color: black;	
+}
+
+.navbar_link:hover{
+	color: black;
+	background-color: lightgray;
+}
+
+.navbar_link_left{
+	float: left;
+	display: block;
+}
+
+.navbar_link_right{
+	float: right;
+	display: block;
+}
+
+.navbar_link_center{
+	text-align: center;
+}
+
+
+.navbar_settings{
+	padding-top: 16px;
+	padding-bottom: 16px;
+	font-size: 24px;
+}
+
+
+/* Blog items
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.blog-items{
+	max-width: 100%;
+	margin: auto;
+	height: auto;
+	position: relative;
+	padding-top: 25px;
+}
+
+.blog-items img{
+	max-width: 100%;
+}
+
+.blog-item h3{
+	font-size: 24px;
+	text-align: center;
+}
+
+.blog-item p{
+	font-size: 15px;
+	text-align: center;
+}
+
+
+/* Custom container
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.custom-container{
+	max-width: 90%;
+	margin: auto;
+	padding: 8px 15px;
+	background-color: white;
+}
+
+
+/* Pagination
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.pagination-container{
+	text-align: center;
+	margin: auto;
+}
+
+.pagination{
+	display: inline-block;
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    display: block;
+}
+
+.pagination a.active {
+    background-color: dodgerblue;
+    color: white;
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;}
+
+
+/* About Me Container
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.about-me-container{
+	text-align: center;
+}
+
+.about-me-container h3{
+	font-size: 24px;
+}
+
+.about-me-container img{
+	display: block;
+	margin: auto;
+	width: 800px;
+	max-width: 100%;
+}
+
+.about-me-container h4{
+	margin-top: 25px;
+}
+
+/* Footer
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.footer-container h3{
+	font-size: 24px;
+}
+
+.footer-container ul{
+	list-style-type: none;
+}
+
+.footer-container li{
+	padding: 8px 16px;
+	border-bottom: 1px solid #ddd;
+}
+
+.footer-container img{
+	width: 50px;
+	float: left;
+	margin-right: 16px;
+
+}

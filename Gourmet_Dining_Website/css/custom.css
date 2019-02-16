@@ -1,0 +1,126 @@
+/*
+* Skeleton V2.0.4
+* Copyright 2014, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 12/29/2014
+*/
+
+
+/* Table of contents
+––––––––––––––––––––––––––––––––––––––––––––––––––
+- Fonts
+*/
+
+body{
+	font-family: "Times New Roman", Georgia, Serif;
+	font-size: 18px;
+	line-height: 1.5;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: "Playfair Display";
+    letter-spacing: 5px;
+}
+
+
+/* Container
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.container{
+	width: 100%;
+	max-width: 1440px;
+}
+
+
+/* Navbar
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.navbar{
+	margin: 0px;
+	padding: 8px 16px;
+	background-color: white;
+}
+
+.navbar_link{
+	/*display: inline-block;*/
+	padding: 10px 15px;
+	text-decoration: none;
+	color: black;	
+}
+
+.navbar_link:hover{
+	color: black;
+	background-color: lightgray;
+}
+
+.navbar_link_left{
+	float: left;
+}
+
+.navbar_link_right{
+	float: right;
+}
+
+/* Banner image
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.banner-img{
+	max-width: 100%;
+	height: auto;
+	position: relative;
+}
+
+.banner-img img{
+	max-width: 100%;
+}
+
+.banner-img h1{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	padding: 12px 24px;
+}
+
+
+/* Catering details
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.catering-details{
+	width: 75%;
+	margin: auto;
+	padding-top: 75px;
+}
+
+.catering-details img{
+	max-width: 100%;
+}
+
+.catering-text-grey{
+	color: #757575;
+}
+
+/* Horizontal break
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+hr{
+	max-width: 90%;
+}
+
+/* Helpers
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.helper-opacity{
+	opacity: 0.60;
+}
+
+.helper-opacity-min{
+	opacity: 0.75;
+}
+
+.helper-image-round{
+	border-radius: 4px;
+}
+
+.helper-center{
+	text-align: center;
+}
+

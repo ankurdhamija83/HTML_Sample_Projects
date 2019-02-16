@@ -1,0 +1,260 @@
+/*
+* Skeleton V2.0.4
+* Copyright 2014, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 12/29/2014
+*/
+
+
+/* Table of contents
+––––––––––––––––––––––––––––––––––––––––––––––––––
+- Fonts
+*/
+
+h1,h2,h3,h4,h5,h6 {
+	font-family: "Oswald"
+},
+
+body {
+	font-family: "Open Sans"
+}
+
+
+/* Container
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.container{
+	width: 100%;
+	max-width: 1440px;
+}
+
+.site-container{
+	width: 100%;
+	box-sizing: "border-box";
+}
+
+
+/* Navbar
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.navbar{
+	background-color: black;
+}
+
+.navbar-link{
+	color: white;
+	padding: 8px 16px;
+	display: block;
+	border: none;
+}
+
+.navbar-link:hover{
+	color: black;
+	background-color: #575757;
+}
+
+.navbar-left{
+	float: left;
+}
+
+.navbar-right{
+	float: right;
+}
+
+/* Blog Header
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.blog-header{
+	padding: 48px 16px;
+	text-align: center;
+	margin: auto;
+}
+
+
+/* Image Header
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.image-header{
+	max-width: 100%;
+	position: relative;
+	background-color: #ccc;
+}
+
+.image-header img{
+	max-width: 100%;
+}
+
+
+/* Image Text
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.image-text{
+	position: absolute;
+	left: 0;
+	top: 50%;
+	transform: translate(0, -50%);
+	padding: 12px 24px;
+}
+
+.image-text h1, .image-text h6{
+	color: white;
+}
+
+.image-text button{
+	color: black;
+	background-color: #fff;
+	border: none;
+	vertical-align: middle;
+}
+
+
+/* Blog
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.site-container-blog{
+	background-color: #ccc;
+	padding: 15px 25px;
+}
+
+.blog-item{
+	background-color: white;
+	text-align: center;
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-left: 20px;
+	margin-bottom: 40px;
+}
+
+.blog-item-image{
+	width: 100%;
+	max-width: 100%;
+	margin: auto;
+}
+
+.blog-item-image img{
+	width: 100%;
+}
+
+.blog-item p{
+	text-align: left;
+}
+
+/* Sidebar
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.blog-sidebar-top{
+	background-color: black;
+	margin-bottom: 2.5rem;
+}
+
+.blog-sidebar-top img{
+	width: 100%;
+}
+
+.blog-sidebar-top-container{
+	padding: 5px 10px;
+	background-color: black;
+	color: white;
+}
+
+.blog-sidebar-top-heading{
+	padding: 12px 10px;
+}
+
+.blog-sidebar-top-heading h3{
+	margin-bottom: 0px;
+	color: white;
+}
+
+.blog-sidebar-top-list{
+	background-color: white;
+}
+
+.blog-sidebar-top-list li{
+	border-bottom: 0.5px solid #ddd;
+	margin-bottom: 0px;
+}
+
+.blog-sidebar-top-list ul{
+	list-style-type: none;
+	margin-bottom: 0px;
+}
+
+.blog-sidebar-top-list-element{
+	padding: 10px 10px;
+}
+
+.blog-sidebar-top-list-element img{
+	float: left;
+	width: 50px;
+	margin-right: 15px;
+}
+
+.blog-sidebar-advertise-box{
+	background: white;
+	padding: 12px 12px;
+}
+
+.blog-sidebar-advertise-content{
+	background: #f1f1f1;
+	height: 200px;
+	position: relative;
+}
+
+.blog-sidebar-advertise-content span{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.blog-sidebar-tags-box{
+	background: white;
+	padding: 12px 12px;
+}
+
+.blog-sidebar-tags-box span{
+	padding: 5px 5px;
+	background-color: #f1f1f1;
+	margin-bottom: 16px;
+	display: inline-block;
+}
+
+
+
+
+
+/* Helper
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.helper-opacity{
+	opacity: 0.60;
+}
+
+.helper-left{
+	float: left;
+	margin-bottom: 0px;
+}
+
+.helper-right{
+	float: right;
+	margin-bottom: 0px;
+}
+
+
+.helper-clear::after {
+    content: "";
+    clear: both;
+    display: table;
+    margin-bottom: 0px;
+}
+
+.helper-clear::before {
+    content: "";
+    clear: both;
+    display: table;
+    margin-bottom: 0px;
+}
+
+

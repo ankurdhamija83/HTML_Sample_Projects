@@ -1,0 +1,178 @@
+/*
+* Skeleton V2.0.4
+* Copyright 2014, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 12/29/2014
+*/
+
+
+/* Table of contents
+––––––––––––––––––––––––––––––––––––––––––––––––––
+- Fonts
+*/
+
+body{
+	font-family: Verdana,sans-serif;
+	font-size: 15px;
+	line-height: 1.5;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: Verdana,sans-serif;
+    letter-spacing: 5px;
+}
+
+
+/* Container
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.container{
+	width: 100%;
+	max-width: 1440px;
+}
+
+
+/* Navbar
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.navbar{
+	margin: 0px;
+	padding: 8px 15px;
+	background-color: white;
+}
+
+.navbar_link{
+	/*display: inline-block;*/
+	padding: 10px 15px;
+	text-decoration: none;
+	color: black;	
+}
+
+.navbar_link:hover{
+	color: black;
+	background-color: lightgray;
+}
+
+.navbar_link_left{
+	float: left;
+}
+
+.navbar_link_right{
+	float: right;
+}
+
+/* Banner image
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.banner-img{
+	max-width: 100%;
+	height: auto;
+	position: relative;
+}
+
+.banner-img img{
+	max-width: 100%;
+}
+
+.banner-img h1{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	padding: 12px 24px;
+	color: white;
+}
+
+
+/* Jumbotron
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.jumbotron{
+	margin: 0px;
+	padding: 25px 30px 10px 30px;
+	background-color: white;
+}
+
+.jumbotron h5{
+	margin-bottom: 1rem;
+}
+
+.jumbotron hr{
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+
+
+
+/* Projects
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.projects-img{
+	max-width: 100%;
+	height: auto;
+	position: relative;
+	padding-top: 25px;
+}
+
+.projects-img img{
+	max-width: 100%;
+}
+
+.project-label-container{
+	position: relative;
+}
+
+.project-label{
+	background-color: black;
+	color: white;
+	padding: 10px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+/* Projects
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.teams-img{
+	max-width: 100%;
+	height: auto;
+	position: relative;
+	padding-top: 25px;
+}
+
+.teams-img img{
+	max-width: 100%;
+}
+
+
+/* Helpers
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.helper-opacity{
+	opacity: 0.60;
+}
+
+.helper-opacity-min{
+	opacity: 0.75;
+}
+
+.helper-image-round{
+	border-radius: 4px;
+}
+
+.helper-center{
+	text-align: center;
+}
+
+.helper-span-background{
+	background-color: black;
+	opacity: 0.75;
+	padding: 10px;
+}
+
+#helper-border{
+	border: none;
+	border-bottom: 1px solid #ccc;
+}
+

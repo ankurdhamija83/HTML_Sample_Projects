@@ -1,0 +1,160 @@
+/*
+* Skeleton V2.0.4
+* Copyright 2014, Dave Gamache
+* www.getskeleton.com
+* Free to use under the MIT license.
+* http://www.opensource.org/licenses/mit-license.php
+* 12/29/2014
+*/
+
+
+/* Table of contents
+––––––––––––––––––––––––––––––––––––––––––––––––––
+- Header
+
+*/
+
+
+/* Container
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.container{
+	width: 100%;
+	max-width: 1440px;
+}
+
+
+/* Navbar
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.navbar{
+	margin: 0px;
+	padding: 0px;
+	background-color: black;
+}
+
+.navbar_link{
+	/*display: inline-block;*/
+	padding: 10px 15px;
+	text-decoration: none;
+	color: white;	
+}
+
+.navbar_link:hover{
+	color: black;
+	background-color: gray;
+}
+
+.navbar_link_left{
+	float: left;
+}
+
+.navbar_link_right{
+	float: right;
+}
+
+/* Image Slideshow
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.image_container{
+	position: relative;
+}
+
+.image_text{
+	position: absolute;
+	bottom: 15px;
+	color: white;
+	left: 50%;
+	transform: translate(-50%, 0);
+	text-align: center;
+}
+
+/* Band Container
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.band_container{
+	padding: 64px 16px;
+	text-align: center;
+}
+
+/* Band Member
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.band_member{
+	text-align: center;
+}
+
+/* Tour Dates
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.tour_dates{
+	background-color: black;
+	margin-top: 75px;
+	padding-top: 64px;
+	text-align: center;
+}
+
+.tour_dates h2, .tour_dates p{
+	color: white;
+}
+
+.tour_dates_list{
+	list-style-type: none;
+	background-color: white;
+	width: 90%;
+	margin: auto;
+	margin-bottom: 20px;
+}
+
+.tour_dates_list li{
+	text-align: left;
+	padding: 10px 10px;
+	margin-bottom: 0px;
+	color: gray;
+	display: block;
+	border-bottom: 0.25px solid silver;
+}
+
+
+/* Tour Locations
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.tour_locations_container{
+	/*width: 90%;*/
+	/*margin: auto;*/
+	background-color: black;
+	padding-top: 50px;
+	text-align: center;
+	padding-bottom: 50px;
+}
+
+.tour_locations{
+	width: 90%;
+	margin: auto;
+	text-align: left;
+	/*margin-top: 50px;*/
+}
+
+.tour_locations_details{
+	position: relative;
+	top: -7px;
+	margin-top: 0px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 15px;
+	background-color: white;
+}
+
+/* Contact
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.contact{
+	padding-top: 50px;
+	text-align: center;
+	padding-bottom: 50px;
+}
+
+.contact-info{
+	/*padding: 15px;*/
+	width: 90%;
+	margin: auto;
+	text-align: left;
+}
